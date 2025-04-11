@@ -1,8 +1,13 @@
 const canvas = document.getElementById("gameCanvas");
 const context = canvas.getContext("2d");
 
-// Game loop
-function gameLoop() {
+// This function runs at the beginning of the game
+function GameSetup() {
+    // Get 
+}
+
+// This 
+function GameLoop() {
     Update();
     Render();
     requestAnimationFrame(gameLoop);
@@ -19,4 +24,4 @@ function Render() {
     context.fillText("Alien Infiltration - Prototype", 10, 20);
 }
 
-gameLoop();
+GameSetup();
