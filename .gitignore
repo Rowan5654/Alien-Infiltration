@@ -1,0 +1,7 @@
+# Ignore macOS files
+.DS_Store
+
+# Ignore system or IDE junk
+Thumbs.db
+node_modules/
+dist/
